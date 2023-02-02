@@ -4,6 +4,6 @@ public class Main {
         System.out.println(message);
     }
     public static void main(String[] args) {
-        showMessage("Hi");
+        showMessage("Hi Tetiana");
     }
 }
