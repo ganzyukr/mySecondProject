@@ -6,6 +6,7 @@ public class MyClass {
         int c = a + b;
         return c;
     }
+
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 10;
@@ -13,4 +14,6 @@ public class MyClass {
         int result = obj.myMethod(num1, num2);
         System.out.println("Sum is: " + result);
     }
+
 }
+
