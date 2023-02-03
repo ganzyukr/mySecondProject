@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1a302d-ebc0-4946-895c-cb4d31989699" name="Changes" comment="Code improving for HW1" />
+    <list default="true" id="cb1a302d-ebc0-4946-895c-cb4d31989699" name="Changes" comment="Code improving for HW1">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IdeaProjects/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IdeaProjects/dir/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IdeaProjects/dir1/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IdeaProjects/hw1/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mySecondProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mySecondProject/dir/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mySecondProject/dir1/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mySecondProject/hw1/MyClass.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,17 +70,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tatiana/IdeaProjects/mySecondProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/tatiana/IdeaProjects/mySecondProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MyClass">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
@@ -90,7 +103,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hw1.MyClass" />
-      <module name="mySecondProject" />
+      <module name="IdeaProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw1.*" />
@@ -172,7 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675446903503</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Code improving for HW1">
+      <created>1675447897977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675447897977</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Code improving for HW1">
+      <created>1675447927622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675447927622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Code improving for HW1">
+      <created>1675447930242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675447930242</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW1 - First commit to new branch" />
     <MESSAGE value="Init commit" />
+    <MESSAGE value="Code improving for HW1 2" />
     <MESSAGE value="Code improving for HW1" />
     <option name="LAST_COMMIT_MESSAGE" value="Code improving for HW1" />
   </component>
