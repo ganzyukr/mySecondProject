@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class DishesStreams {
     private String name;
     private String color;
-    private int prise;
+    private int price;
 
     public String getName() {
         return name;
@@ -26,17 +26,17 @@ public class DishesStreams {
     }
 
     public int getPrise() {
-        return prise;
+        return price;
     }
 
     public void setPrise(int prise) {
-        this.prise = prise;
+        this.price = prise;
     }
 
     public DishesStreams(String name, String color, int prise) {
         this.name = name;
         this.color = color;
-        this.prise = prise;
+        this.price = prise;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class DishesStreams {
         return "DishesStreams{" +
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +
-                ", prise=" + prise +
+                ", prise=" + price +
                 '}';
     }
 
@@ -56,9 +56,9 @@ public class DishesStreams {
         DishesStreams dish5 = new DishesStreams("Cover", "Yellow", 120);
         DishesStreams dish6 = new DishesStreams("Cup", "White", 50);
 
-        //List<DishesStreams> dishesStreams = List.of(dish1,dish2);
+        //List<DishesStreams> dishesStreams = List.of(dish1,dish2);    // чомусь of свытиться червоним, в списку вибору його немає
 
-      List<DishesStreams> dishesStreams = new ArrayList<>();
+        List<DishesStreams> dishesStreams = new ArrayList<>();
         dishesStreams.add(dish1);
         dishesStreams.add(dish2);
         dishesStreams.add(dish3);
@@ -67,20 +67,23 @@ public class DishesStreams {
         dishesStreams.add(dish6);
 
 
+        System.out.println("Test 1 - Вивести на екран всі товари");
+        dishesStreams.stream()
+                .forEach(System.out::println);
 
-        //List<DishesStreams> dishesStreamsUpd = dishesStreams.stream().filter(DishesStreams -> DishesStreams.getName() & DishesStreams.getPrise() <100).collect(Collectors.toList());
-        //System.out.println(dishesStreams);
+        System.out.println("Test 2 - Вивести на екран всі товари, які мають заданий колір");
+        List<DishesStreams> dishesStreamsUpd = dishesStreams.stream()
+                .filter(DishesStreams -> DishesStreams.getColor() == "White").collect(Collectors.toList());
+        System.out.println(dishesStreamsUpd);
 
 
-            System.out.println("Test 1");
-            dishesStreams.stream()
-                    .forEach(System.out::println);
+        System.out.println("Test 3 - Вивести на екран товари, які мають ціну, вищу за вказану");
+        List<DishesStreams> dishesStreamsUpd1 = dishesStreams.stream()
+                .filter(DishesStreams -> DishesStreams.getPrise() > 100).collect(Collectors.toList());
+        System.out.println(dishesStreamsUpd1);
 
-//        System.out.println("Test 2");
-//        dishesStreams.stream()
-//                .filter(dishesStreams -> (dishesStreams.get() < 100))
-//                .collect(Collectors.toList())
-//                .forEach(System.out::println);
-        }
     }
+}
+
+
 
