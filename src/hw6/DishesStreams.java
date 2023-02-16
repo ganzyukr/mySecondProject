@@ -9,28 +9,12 @@ public class DishesStreams {
     private String color;
     private int price;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
     public int getPrise() {
         return price;
-    }
-
-    public void setPrise(int prise) {
-        this.price = prise;
     }
 
     public DishesStreams(String name, String color, int prise) {
@@ -56,7 +40,10 @@ public class DishesStreams {
         DishesStreams dish5 = new DishesStreams("Cover", "Yellow", 120);
         DishesStreams dish6 = new DishesStreams("Cup", "White", 50);
 
-        //List<DishesStreams> dishesStreams = List.of(dish1,dish2);    // чомусь of свытиться червоним, в списку вибору його немає
+        // List<DishesStreams> dishesStreams = List.of(dish1,dish2,dish3,dish4,dish5,dish6);
+        // Інший варіант листа написаний нижче. Цей не вдалося реалізувати. Чомусь "of" в списку вибору немає,
+        // при самостійномуу написанні - світиться червоним
+
 
         List<DishesStreams> dishesStreams = new ArrayList<>();
         dishesStreams.add(dish1);
@@ -70,11 +57,13 @@ public class DishesStreams {
         System.out.println("Test 1 - Вивести на екран всі товари");
         dishesStreams.stream()
                 .forEach(System.out::println);
+        System.out.print(System.lineSeparator());
 
         System.out.println("Test 2 - Вивести на екран всі товари, які мають заданий колір");
         List<DishesStreams> dishesStreamsUpd = dishesStreams.stream()
                 .filter(DishesStreams -> DishesStreams.getColor() == "White").collect(Collectors.toList());
         System.out.println(dishesStreamsUpd);
+        System.out.print(System.lineSeparator());
 
 
         System.out.println("Test 3 - Вивести на екран товари, які мають ціну, вищу за вказану");
