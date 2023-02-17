@@ -49,6 +49,5 @@ class BooksArrayList {
 
         System.out.println("List : " + books);
         System.out.println("Map  : " + map);
-
     }
 }
