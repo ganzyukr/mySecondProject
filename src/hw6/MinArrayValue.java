@@ -1,7 +1,7 @@
 package hw6;
 
 public class MinArrayValue {
-    public int MinDifference(int[] input) {
+    public int minDifference(int[] input) {
 
         int finalDifference = Math.abs(input[0] - input[1]);
         int difference = 0;
@@ -21,6 +21,6 @@ public class MinArrayValue {
         MinArrayValue minArrayValue = new MinArrayValue();
         int[] inputData = {5, 11, 7, 20};
 
-        System.out.println("Мінімальна різниця між числами в масиві: " + minArrayValue.MinDifference(inputData));
+        System.out.println("Мінімальна різниця між числами в масиві: " + minArrayValue.minDifference(inputData));
     }
 }

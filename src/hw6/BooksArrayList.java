@@ -27,7 +27,7 @@ class BooksArrayList {
         return bookName;
     }
 
-    public static void main(String[] args) {                     // програма для перетворення списку на карту
+    public static void main(String[] args) {                     // програма для перетворення Array на Map
 
         List<BooksArrayList> books = new ArrayList<>();          // вхідний список об'єктів `BooksArrayList`
 
