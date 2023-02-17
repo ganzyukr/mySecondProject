@@ -12,6 +12,7 @@ public class PhoneRegEex {
         phones.add("380671493325");
         phones.add("+380631493325");
         phones.add("+380961111111");
+        phones.add("+389611111111");
         phones.add("+38067149");
         phones.add("+11111111dd1");
         phones.add("+830671493325");
